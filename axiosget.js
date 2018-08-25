@@ -9,7 +9,7 @@ function getData(){
                 .then((result) => {
                     
                     let res = result.data
-                    let view = res.map(x => {
+                    res.map(x => {
                         console.log('ini judul ' + '\n' + x.title) 
                         console.log('ini body ' + '\n' + x.body) 
                     }) 
