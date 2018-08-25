@@ -9,5 +9,6 @@ learning with method :
 Reference :
 - Axios https://github.com/axios/axios
 - JSON SERVER https://github.com/typicode/json-server
+- JSON data https://jsonplaceholder.typicode.com/
 
 Having Fun and keep coding :)
