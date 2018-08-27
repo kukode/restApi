@@ -5,9 +5,7 @@
  const axios = require('axios')
 
  function deleteData(){
-  let res = axios.delete('http://localhost:3000/posts/5',{
-                "id" : 5
-                })
+  let res = axios.delete('http://localhost:3000/posts/7')
                 .then((result) => {
                     console.log ('delete data sukses ' +  result)  
                 }).catch((err) => {
